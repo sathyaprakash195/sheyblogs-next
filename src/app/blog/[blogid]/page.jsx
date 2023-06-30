@@ -12,7 +12,7 @@ async function getBlog(id) {
   }
 }
 
-export async function page({ params }) {
+export default async function page({ params }) {
   const blog = await getBlog(params.blogid);
   return (
     <div className="flex flex-col gap-8">
@@ -40,5 +40,3 @@ export async function page({ params }) {
     </div>
   );
 }
-
-export default page;
