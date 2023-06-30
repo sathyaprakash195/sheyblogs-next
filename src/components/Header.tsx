@@ -12,7 +12,7 @@ function ProjectTitle() {
           router.push("/");
         }}
       >
-        SheyBlogs - MERN
+        SheyBlogs - NEXT
       </h1>
     </div>
   );
